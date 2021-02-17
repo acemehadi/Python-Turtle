@@ -1,6 +1,20 @@
-number_vaule=10
-number_vaule2=20
-addition = number_vaule+number_vaule2
-print(f"Total : {addition}")
+import turtle
 
-print("Fuck off")
+Test_turtle = turtle.Turtle()
+
+
+def square():
+    Test_turtle.forward(100)
+    Test_turtle.right(90)
+    Test_turtle.forward(100)
+    Test_turtle.right(90)
+    Test_turtle.forward(100)
+    Test_turtle.right(90)
+    Test_turtle.forward(100)
+
+
+square()
+Test_turtle.forward(100)
+square()
+
+
