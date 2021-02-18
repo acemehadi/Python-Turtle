@@ -1,20 +1,23 @@
-import turtle
-
-Test_turtle = turtle.Turtle()
-
-
-def square():
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
+import calendar
+import datetime
+import time
 
 
-square()
-Test_turtle.forward(100)
-square()
 
 
+print(calendar.weekheader(3))
+print()
+
+print(calendar.firstweekday())
+print()
+
+print()
+print(calendar.month(2020, 2))
+
+print(calendar.calendar(2020))
+
+print(calendar.weekday(2020, 2, 18))
+
+print(calendar.isleap(2005))
+
+print(calendar.leapdays(2000,2005))
