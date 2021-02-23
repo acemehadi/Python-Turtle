@@ -1,25 +1,14 @@
-import turtle
+class Animal:
+    def __init__(self, animal, name, color, behave):
+        self.animal = animal
+        self.name = name
+        self.color = color
+        self.quality = behave
 
-Test_turtle = turtle.Turtle()
-
-
-def square():
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
-    Test_turtle.right(90)
-    Test_turtle.forward(100)
+    def get_details(self):
+        return f"Animal: {self.animal},name :{self.name},Color :{self.color}, Behave: {self.quality} "
 
 
-# square()
-# Test_turtle.forward(100)
-# square()
-man_weight = 50
-women_weight = 60
+one_animal = Animal("cat", "White_ninja", "white", "angry")
 
-if man_weight > women_weight:
-    square()
-else:
-    Test_turtle.forward(100)
+print(one_animal.get_details())
