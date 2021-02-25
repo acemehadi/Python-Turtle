@@ -12,3 +12,4 @@ class Animal:
 one_animal = Animal("cat", "White_ninja", "white", "angry")
 
 print(one_animal.get_details())
+print("hlw World")
