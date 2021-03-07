@@ -1,6 +1,22 @@
-t=(1,2,3)
-credits_card_one=(12345678,"mehadi",10/2022,568)
-credits_card_two=(12345678,"White x,",10/2023,979)
+import turtle
+game_python = turtle.Turtle()
 
-credit_card=[credits_card_one,credits_card_two]
-print(credit_card)
+
+def call():
+    game_python.forward(100)
+    game_python.right(90)
+    game_python.forward(100)
+    game_python.right(90)
+    game_python.forward(100)
+    game_python.right(90)
+    game_python.forward(100)
+
+def callback():
+    game_python.forward(100)
+    game_python.left(90)
+
+
+call()
+callback()
+call()
+print("I Enjoy the Full process")
